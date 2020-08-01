@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 6.937 s <<< FAILURE! - in TestSuite
+tc01ValidateWithValidInputData(com.assignment.testcases.TC01)  Time elapsed: 1.614 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc01ValidateWithValidInputData(TC01.java:100)
+
+tc02ValidateWithAlphaNumericInputData(com.assignment.testcases.TC01)  Time elapsed: 0.187 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc02ValidateWithAlphaNumericInputData(TC01.java:156)
+
+tc03ValidateWithNullInputData(com.assignment.testcases.TC01)  Time elapsed: 0.219 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc03ValidateWithNullInputData(TC01.java:201)
+
+tc04ValidateWithWildCharacterInputData(com.assignment.testcases.TC01)  Time elapsed: 0.391 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc04ValidateWithWildCharacterInputData(TC01.java:249)
+
+tc05ValidateWithSpaceInputData(com.assignment.testcases.TC01)  Time elapsed: 0.236 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc05ValidateWithSpaceInputData(TC01.java:293)
+
+tc06ValidateWithSpaceInputData(com.assignment.testcases.TC01)  Time elapsed: 0.42 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc06ValidateWithSpaceInputData(TC01.java:337)
+
+tc07ValidateOutputWithNumbersWithNoAlphabets(com.assignment.testcases.TC01)  Time elapsed: 0.589 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc07ValidateOutputWithNumbersWithNoAlphabets(TC01.java:384)
+
+tc08ValidateOutputWithNumbersWithNoAlphabets(com.assignment.testcases.TC01)  Time elapsed: 0.23 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc08ValidateOutputWithNumbersWithNoAlphabets(TC01.java:435)
+
+tc09ValidateOutputWithNumbersWithNoAlphabets(com.assignment.testcases.TC01)  Time elapsed: 0.426 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.assignment.testcases.TC01.tc09ValidateOutputWithNumbersWithNoAlphabets(TC01.java:476)
+

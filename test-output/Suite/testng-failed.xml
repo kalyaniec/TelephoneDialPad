@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.assignment.testcases.TC01">
+        <methods>
+          <include name="setExtent"/>
+          <include name="tc06ValidateWithSpaceInputData" invocation-numbers="0"/>
+          <include name="tc03ValidateWithNullInputData" invocation-numbers="0"/>
+          <include name="tc02ValidateWithAlphaNumericInputData" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tc09ValidateOutputWithNumbersWithNoAlphabets" invocation-numbers="0"/>
+          <include name="tc07ValidateOutputWithNumbersWithNoAlphabets" invocation-numbers="0"/>
+          <include name="tc05ValidateWithSpaceInputData" invocation-numbers="0"/>
+          <include name="tc08ValidateOutputWithNumbersWithNoAlphabets" invocation-numbers="0"/>
+          <include name="tc01ValidateWithValidInputData" invocation-numbers="0"/>
+          <include name="tc04ValidateWithWildCharacterInputData" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.assignment.testcases.TC01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

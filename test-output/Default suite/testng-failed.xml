@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="dialCombinationV01.testCases.TC01">
+        <methods>
+          <include name="tc03ValidateWithNullInputData" invocation-numbers="0"/>
+          <include name="tc02ValidateWithAlphaNumericInputData" invocation-numbers="0"/>
+          <include name="tc01ValidateWithValidInputData" invocation-numbers="0"/>
+          <include name="tc04ValidateWithWildCharacterInputData" invocation-numbers="0"/>
+          <include name="tc06ValidateWithSpaceInputData" invocation-numbers="0"/>
+          <include name="setExtent"/>
+          <include name="closeExtent"/>
+        </methods>
+      </class> <!-- dialCombinationV01.testCases.TC01 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
